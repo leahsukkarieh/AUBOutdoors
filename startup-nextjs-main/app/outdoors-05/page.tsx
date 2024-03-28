@@ -8,18 +8,18 @@ export const metadata: Metadata = {
 };
 
 const images = [
-    '/images/archive/2005/1.JPG',
-    '/images/archive/2005/2.JPG',
-    '/images/archive/2005/3.JPG',
-    '/images/archive/2005/4.JPG',
-    '/images/archive/2005/5.JPG',
-    '/images/archive/2005/6.JPG',
-    '/images/archive/2005/7.JPG',
-    '/images/archive/2005/8.JPG',
-    '/images/archive/2005/9.JPG',
-    '/images/archive/2005/10.JPG',
-    '/images/archive/2005/12.JPG',
-    '/images/archive/2005/13.JPG',
+    'https://ik.imagekit.io/nh7xswppky/2005/1.JPG?updatedAt=1711626418883',
+    'https://ik.imagekit.io/nh7xswppky/2005/2.JPG?updatedAt=1711626413400',
+    'https://ik.imagekit.io/nh7xswppky/2005/3.JPG?updatedAt=1711626427990',
+    'https://ik.imagekit.io/nh7xswppky/2005/4.JPG?updatedAt=1711626427934',
+    'https://ik.imagekit.io/nh7xswppky/2005/5.JPG?updatedAt=1711626428050',
+    'https://ik.imagekit.io/nh7xswppky/2005/6.JPG?updatedAt=1711626426617',
+    'https://ik.imagekit.io/nh7xswppky/2005/7.JPG?updatedAt=1711626425321',
+    'https://ik.imagekit.io/nh7xswppky/2005/8.JPG?updatedAt=1711626428565',
+    'https://ik.imagekit.io/nh7xswppky/2005/9.JPG?updatedAt=1711626429345',
+    'https://ik.imagekit.io/nh7xswppky/2005/10.JPG?updatedAt=1711626425881',
+    'https://ik.imagekit.io/nh7xswppky/2005/12.JPG?updatedAt=1711626426305',
+    'https://ik.imagekit.io/nh7xswppky/2005/13.JPG?updatedAt=1711626423577',
   ];
 
 const OD2005Page = () => {

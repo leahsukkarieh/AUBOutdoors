@@ -4,6 +4,7 @@ import { Grid } from '@mui/material';
 import Image from 'next/image';
 
 const FullScreenImage = ({ src, onClose }) => {
+
   return (
     <div
       style={{
@@ -21,12 +22,16 @@ const FullScreenImage = ({ src, onClose }) => {
       }}
       onClick={onClose}
     >
-      <Image src={src} alt='' width={800} height={600} />
+      <img 
+        src={src}
+        width={800}
+        height={600}
+      />
     </div>
   );
 };
 
-const ImageGrid = ({ images, xs, sm, md, lg, width }) => {
+const ImageGrid = ({ images, xs, sm, md, lg, width}) => {
   const [fullScreenImage, setFullScreenImage] = useState(null);
 
   const openFullScreen = (image) => {
@@ -42,12 +47,13 @@ const ImageGrid = ({ images, xs, sm, md, lg, width }) => {
       <Grid container spacing={2}>
         {images.map((image, index) => (
           <Grid item xs={xs} sm={sm} md={md} lg={lg} key={index}>
-            <div onClick={() => openFullScreen(image)}>
-              <Image
+            <div 
+              className='shadow-md rounded-sm transition-transform duration-300 transform hover:scale-105'
+              onClick={() => openFullScreen(image)}
+            >
+              <img 
                 src={image}
-                alt={`Image ${index}`}
-                width={width}
-                className='shadow-md rounded-sm transition-transform duration-300 transform hover:scale-105'
+                width={500}
               />
             </div>
           </Grid>

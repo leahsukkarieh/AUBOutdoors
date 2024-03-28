@@ -8,12 +8,12 @@ export const metadata: Metadata = {
 };
 
 const images = [
-    '/images/archive/2004/1.JPG',
-    '/images/archive/2004/2.png',
-    '/images/archive/2004/3.JPG',
-    '/images/archive/2004/4.png',
-    '/images/archive/2004/5.JPG',
-    '/images/archive/2004/6.jpg',
+    'https://ik.imagekit.io/nh7xswppky/2004/1.JPG?updatedAt=1711626350976',
+    'https://ik.imagekit.io/nh7xswppky/2004/2.png?updatedAt=1711626520428',
+    'https://ik.imagekit.io/nh7xswppky/2004/3.JPG?updatedAt=1711626350767',
+    'https://ik.imagekit.io/nh7xswppky/2004/4.png?updatedAt=1711626525042',
+    'https://ik.imagekit.io/nh7xswppky/2004/5.JPG?updatedAt=1711626350993',
+    'https://ik.imagekit.io/nh7xswppky/2004/6.jpg?updatedAt=1711626347117',
   ];
 
 const OD2004Page = () => {

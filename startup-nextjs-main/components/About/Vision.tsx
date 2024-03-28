@@ -10,12 +10,7 @@ const Vision = () => {
               className="relative mx-auto mb-12 aspect-[25/24] max-w-[500px] text-center lg:m-0"
               data-wow-delay=".15s"
             >
-              <Image
-                src="/images/about/vision.jpg"
-                alt="festival"
-                fill
-                className="drop-shadow-three rounded-sm"
-              />
+              <img src="https://upcdn.io/12a1ytL/image/vision.jpg?w=500&h=700"/>  
             </div>
           </div>
           <div className="w-full px-4 lg:w-1/2">
