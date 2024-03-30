@@ -10,7 +10,11 @@ const Vision = () => {
               className="relative mx-auto mb-12 aspect-[25/24] max-w-[500px] text-center lg:m-0"
               data-wow-delay=".15s"
             >
-              <img src="https://upcdn.io/12a1ytL/image/vision.jpg?w=500&h=700"/>  
+              <img 
+                src="https://ik.imagekit.io/nh7xswppky/about/vision.jpg?updatedAt=1711804564167"
+                alt="festival"
+                className="drop-shadow-three rounded-sm"
+              />  
             </div>
           </div>
           <div className="w-full px-4 lg:w-1/2">

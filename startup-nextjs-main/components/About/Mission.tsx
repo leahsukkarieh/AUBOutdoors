@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 const Mission = () => {
   return (
     <section className="py-16 md:py-20 lg:py-28">
@@ -27,10 +25,9 @@ const Mission = () => {
               className="relative mx-auto mb-12 aspect-[25/24] max-w-[500px] text-center lg:m-0"
               data-wow-delay=".15s"
             >
-              <Image
-                src="/images/about/mission.jpg"
+              <img
+                src="https://ik.imagekit.io/nh7xswppky/about/mission.jpg?updatedAt=1711805635025"
                 alt="concert"
-                fill
                 className="drop-shadow-three rounded-sm"
               />
             </div>

@@ -1,27 +1,26 @@
 import React from 'react';
-import Image from 'next/image';
 import { Grid } from '@mui/material';
 import goalsData from './goalsData';
 
 const images = [
-  '/images/about/goals/1.png',
-  '/images/about/goals/2.jpg',
-  '/images/about/goals/3.jpg',
-  '/images/about/goals/4.jpg',
-  '/images/about/goals/5.jpg',
-  '/images/about/goals/6.jpg',
-  '/images/about/goals/7.jpg',
-  '/images/about/goals/8.jpg',
-  '/images/about/goals/9.png',
-  '/images/about/goals/10.jpg',
-  '/images/about/goals/11.jpg',
-  '/images/about/goals/12.jpg',
-  '/images/about/goals/13.jpg',
-  '/images/about/goals/14.jpg',
-  '/images/about/goals/15.jpg',
-  '/images/about/goals/16.jpg',
-  '/images/about/goals/17.jpg',
-  '/images/about/goals/18.jpg',
+  'https://ik.imagekit.io/nh7xswppky/goals/1.png?updatedAt=1711804219100',
+  'https://ik.imagekit.io/nh7xswppky/goals/2.jpg?updatedAt=1711803740846',
+  'https://ik.imagekit.io/nh7xswppky/goals/3.jpg?updatedAt=1711803742451',
+  'https://ik.imagekit.io/nh7xswppky/goals/4.jpg?updatedAt=1711803742498',
+  'https://ik.imagekit.io/nh7xswppky/goals/5.jpg?updatedAt=1711803742642',
+  'https://ik.imagekit.io/nh7xswppky/goals/6.jpg?updatedAt=1711803743204',
+  'https://ik.imagekit.io/nh7xswppky/goals/7.jpg?updatedAt=1711803743428',
+  'https://ik.imagekit.io/nh7xswppky/goals/8.jpg?updatedAt=1711803745175',
+  'https://ik.imagekit.io/nh7xswppky/goals/9.png?updatedAt=1711803764115',
+  'https://ik.imagekit.io/nh7xswppky/goals/10.jpg?updatedAt=1711803741493',
+  'https://ik.imagekit.io/nh7xswppky/goals/11.jpg?updatedAt=1711803741499',
+  'https://ik.imagekit.io/nh7xswppky/goals/12.jpg?updatedAt=1711803741463',
+  'https://ik.imagekit.io/nh7xswppky/goals/13.jpg?updatedAt=1711803741652',
+  'https://ik.imagekit.io/nh7xswppky/goals/14.jpg?updatedAt=1711803740902',
+  'https://ik.imagekit.io/nh7xswppky/goals/15.jpg?updatedAt=1711803740542',
+  'https://ik.imagekit.io/nh7xswppky/goals/16.jpg?updatedAt=1711803741439',
+  'https://ik.imagekit.io/nh7xswppky/goals/17.jpg?updatedAt=1711803741465',
+  'https://ik.imagekit.io/nh7xswppky/goals/18.jpg?updatedAt=1711803741453',
 ];
 
 const Goals = () => {
@@ -58,7 +57,7 @@ const Goals = () => {
               <Grid container spacing={0} className='justify-center'>
                 {images.map((image, index) => (
                   <Grid item xs={5} sm={5} md={4} lg={4} key={index}>
-                    <Image 
+                    <img 
                       src={image} 
                       alt={`Image ${index}`} 
                       width={200}
