@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import { useState, useRef } from 'react';
 import SingleEvent from '@/components/Archive/SingleEvent';
 import { archiveData } from '@/components/Archive/archiveData';

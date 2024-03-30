@@ -54,6 +54,7 @@ const ImageGrid = ({ images, xs, sm, md, lg, width}) => {
               <img 
                 src={image}
                 width={500}
+                style={{cursor: 'pointer'}}
               />
             </div>
           </Grid>

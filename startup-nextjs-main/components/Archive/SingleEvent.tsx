@@ -6,7 +6,7 @@ const SingleEvent = ({ event }: { event: Event }) => {
   return (
     <>
     <div 
-        className="rounded-lg p-14 shadow-md"
+        className="rounded-lg p-20 shadow-md"
         style={{ backgroundImage: `url(${image})`, backgroundSize: 'cover', backgroundPosition: 'center' }}
     >
         <Link
