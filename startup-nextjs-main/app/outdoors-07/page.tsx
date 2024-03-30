@@ -60,8 +60,8 @@ const OD2007Page = () => {
         className='container'
         style={{fontFamily: 'Gotham Black, sans-serif', width: '85%', textShadow: '2px 2px 4px rgb(138 134 134 / 50%)'}}
       >
-        <h1 className='xs:mt-16 sm:mt-14 md:mt-12 lg:mt-8 xl:mt-8 mb-8 text-3xl text-black text-center font-semibold'>OUTDOORS 2007</h1>
-        <ImageGrid images={images} xs={4} sm={4} md={3} lg={3} width={300}/>
+        <h1 className='xs:mt-16 sm:mt-14 md:mt-12 lg:mt-8 xl:mt-8 mb-8 text-xl md:text-3xl text-black text-center font-semibold'>OUTDOORS 2007</h1>
+        <ImageGrid images={images} xs={12} sm={12} md={3} lg={3}/>
       </div>
       <ArchiveNavigator next={next} prev={prev} />
     </section>

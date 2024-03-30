@@ -3,7 +3,7 @@ import React from 'react';
 
 const Video = () => {
   return (
-  <div className='flex justify-center'>
+  <div className='flex justify-center mb-8'>
     <blockquote 
       className="instagram-media" 
       data-instgrm-permalink="https://www.instagram.com/reel/C4ifggdIOND/?utm_source=ig_embed&amp;utm_campaign=loading" 

@@ -1,7 +1,6 @@
 "use client"
 import React, { useState } from 'react';
 import { Grid } from '@mui/material';
-import Image from 'next/image';
 
 const FullScreenImage = ({ src, onClose }) => {
 
@@ -31,7 +30,7 @@ const FullScreenImage = ({ src, onClose }) => {
   );
 };
 
-const ImageGrid = ({ images, xs, sm, md, lg, width}) => {
+const ImageGrid = ({ images, xs, sm, md, lg}) => {
   const [fullScreenImage, setFullScreenImage] = useState(null);
 
   const openFullScreen = (image) => {

@@ -15,7 +15,7 @@ function Video23() {
 
   return (
     <div className='container'>
-      <div className='mt-8' style={{padding: '50% 0 0 0', position: 'relative'}}>
+      <div className='mt-8 mb-8' style={{padding: '50% 0 0 0', position: 'relative'}}>
         <iframe 
           src="https://player.vimeo.com/video/927735160?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" 
           allow="autoplay; fullscreen; picture-in-picture; clipboard-write" 
