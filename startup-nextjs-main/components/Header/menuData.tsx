@@ -64,8 +64,8 @@ const menuData: Menu[] = [
   },
   {
     id: 7,
-    title: "Policy",
-    path: '/policy',
+    title: "Rules & Regulations",
+    path: '/rules-regulations',
     newTab: false,  
   },
 ];
