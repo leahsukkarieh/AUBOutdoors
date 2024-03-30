@@ -24,21 +24,21 @@ const TeamPage = () => {
         id: 1,
         name: 'Ahmad Konainah',
         position: 'Chief Executive Officer (CEO)',
-        image: '/images/team/CEO.jpeg',
+        image: 'https://ik.imagekit.io/nh7xswppky/team/CEO.jpeg?updatedAt=1711668673029',
     }
 
     const ga : Member = {
         id: 1,
         name: 'Razan Tarabay',
         position: 'Games and Activities Manager',
-        image: '/images/team/ga.jpeg', 
+        image: 'https://ik.imagekit.io/nh7xswppky/team/ga.jpeg?updatedAt=1711668675731', 
     }
 
     const fd : Member = {
         id: 1,
         name: 'Elsa Armache',
         position: 'Food Manager',
-        image: '/images/team/fd.jpeg', 
+        image: 'https://ik.imagekit.io/nh7xswppky/team/fd.jpeg?updatedAt=1711668673222', 
     }
     
   return (
