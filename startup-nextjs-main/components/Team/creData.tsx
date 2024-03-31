@@ -5,7 +5,7 @@ const creData: Member[] = [
     id: 1,
     name: "Joey Zakaria",
     position: 'Creative Manager',
-    image: 'https://ik.imagekit.io/nh7xswppky/team/cre/manager.jpeg?updatedAt=1711668677142',
+    image: 'https://ik.imagekit.io/nh7xswppky/team/cre/manager.jpeg?updatedAt=1711903425978',
   },
   {
     id: 2,
@@ -53,7 +53,7 @@ const creData: Member[] = [
     id: 9,
     name: "Leah Sukkarieh",
     position: 'Technical Developer',
-    image: 'https://ik.imagekit.io/nh7xswppky/team/cre/me.jpeg?updatedAt=1711668677442',
+    image: 'https://ik.imagekit.io/nh7xswppky/team/cre/me.jpeg?updatedAt=1711903488331',
   },
 ];
 export default creData;

@@ -38,7 +38,7 @@ const TeamPage = () => {
         id: 1,
         name: 'Elsa Armache',
         position: 'Food Manager',
-        image: 'https://ik.imagekit.io/nh7xswppky/team/fd.jpeg?updatedAt=1711668673222', 
+        image: 'https://ik.imagekit.io/nh7xswppky/team/fd.jpeg?updatedAt=1711900388265', 
     }
     
   return (

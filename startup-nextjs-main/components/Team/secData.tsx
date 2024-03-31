@@ -11,13 +11,13 @@ const secData: Member[] = [
     id: 2,
     name: "Philippe Bou Akl Darido",
     position: 'Security Coordinator',
-    image: 'https://ik.imagekit.io/nh7xswppky/team/sec/coordinator1.jpeg?updatedAt=1711668673687',
+    image: 'https://ik.imagekit.io/nh7xswppky/team/sec/coordinator1.jpeg?updatedAt=1711904321954',
   },
   {
     id: 3,
     name: "Leah Alloud Hdaife",
     position: 'Security Coordinator',
-    image: 'https://ik.imagekit.io/nh7xswppky/team/sec/coordinator2.jpeg?updatedAt=1711668673298',
+    image: 'https://ik.imagekit.io/nh7xswppky/team/sec/coordinator2.jpeg?updatedAt=1711904343380',
   },
 ];
 export default secData;
