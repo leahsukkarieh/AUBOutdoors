@@ -1,4 +1,5 @@
-import ComingSoon from "@/components/Common/ComingSoon";
+import Breadcrumb from "@/components/Common/Breadcrumb";
+import Content from "@/components/Merch/Content";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -7,10 +8,13 @@ export const metadata: Metadata = {
 };
 
 const MerchPage = () => {
-    const description = 'Stay tuned for the AUB Outdoors 2024 Merch Collection.'
   return (
     <>
-        <ComingSoon description={description} />
+    <Breadcrumb
+        pageName="Merch"
+        description='Take home a piece of the AUB Outdoors 2024 groove! Shop our merch available at the event.'
+    />
+    <Content />
     </>
   );
 };

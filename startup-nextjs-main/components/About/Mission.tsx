@@ -3,7 +3,6 @@ const Mission = () => {
     <section className="py-16 md:py-20 lg:py-28">
       <div className="container">
         <div className="-mx-4 flex flex-wrap items-center">
-          {/* Conditionally render based on screen size */}
           <div className="w-full px-4 lg:w-1/2 order-2 lg:order-1">
             <div className="max-w-[470px] lg:max-w-none">
               <div className="mb-9">
