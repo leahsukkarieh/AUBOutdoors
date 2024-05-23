@@ -31,7 +31,7 @@ const FullScreenImage = ({ src, onClose }) => {
 
 const Content= () => {
 
-  const [fullScreenImage, setFullScreenImage] = useState('');
+  const [fullScreenImage, setFullScreenImage] = useState('')
 
   const closeFullScreen = () => {
     setFullScreenImage('');
@@ -39,7 +39,7 @@ const Content= () => {
 
   return (
     <section className="pb-10 md:pb-14 lg:pb-22">
-      <div className="container justify-center xs:hidden md:flex">
+      <div className="container justify-center hidden xs:hidden sm:hidden md:flex lg:flex xl:flex">
         <div className="flex items-center">
           <img 
             src='https://ik.imagekit.io/nh7xswppky/Merch/merch1.png?updatedAt=1716231755771'
@@ -56,7 +56,7 @@ const Content= () => {
           />
         </div>
       </div>
-      <div className="container flex justify-center mt-6 xs:hidden md:flex">
+      <div className="container flex justify-center mt-6 hidden xs:hidden sm:hidden md:flex lg:flex xl:flex">
         <div className="flex items-center">
           <img 
             src='https://ik.imagekit.io/nh7xswppky/Merch/design2-removebg-preview.png?updatedAt=1716243420803'
@@ -72,7 +72,7 @@ const Content= () => {
           />
         </div>
       </div>
-      <div className="container flex justify-center mt-32 xs:hidden md:flex">
+      <div className="container flex justify-center mt-32 hidden xs:hidden sm:hidden md:flex lg:flex xl:flex">
         <div className="flex items-center">
           <img 
             src='https://ik.imagekit.io/nh7xswppky/Merch/merch3.png?updatedAt=1716231755003'
@@ -89,7 +89,7 @@ const Content= () => {
           />
         </div>
       </div>
-      <div className="container flex justify-center mt-16 xs:hidden md:flex">
+      <div className="container flex justify-center mt-16 hidden xs:hidden sm:hidden md:flex lg:flex xl:flex">
         <div className="flex items-center">
           <img 
             src='https://ik.imagekit.io/nh7xswppky/Merch/design4.png?updatedAt=1716245118122'
@@ -106,7 +106,7 @@ const Content= () => {
         </div>
       </div>
       <div className='container xs:flex xs:flex-col xs:items-center xs:justify-center md:hidden'>
-        <img 
+          <img 
             src='https://ik.imagekit.io/nh7xswppky/Merch/merch1.png?updatedAt=1716231755771'
             width={500}
             className='mt-8 shadow-md rounded-sm transition-transform duration-300 transform hover:scale-105'
