@@ -6,7 +6,7 @@ const Sunday = () => {
 
   return (
     <>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 200"><path fill="#6d3eb6" fill-opacity="1" d="M0,192L80,165.3C160,139,320,85,480,80C640,75,800,117,960,112C1120,107,1280,53,1360,26.7L1440,0L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 200"><path className='fill-[#7334b0] md:fill-[#6d3eb6]' fill-opacity="1" d="M0,192L80,165.3C160,139,320,85,480,80C640,75,800,117,960,112C1120,107,1280,53,1360,26.7L1440,0L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path></svg>
     <section 
       id="sunday" 
       className="py-10 md:py-14 lg:py-22"
@@ -14,7 +14,7 @@ const Sunday = () => {
     >
         <div className="container">
             <h2 
-              className="mb-8 text-4xl font-bold !leading-tight text-yellow text-center"
+              className="mb-8 text-2xl md:text-4xl font-bold !leading-tight text-yellow text-center"
               style={{ fontFamily: 'Gotham Black, sans-serif', textShadow: '2px 2px 4px rgba(0, 0, 0, 0.2)'}}
             >
               SUNDAY MAY 26 2024
@@ -28,7 +28,7 @@ const Sunday = () => {
                       width={30}
                     />
                     <h2 
-                      className="text-4xl font-bold !leading-tight text-white text-center"
+                      className="text-2xl md:text-4xl font-bold !leading-tight text-white text-center"
                       style={{ fontFamily: 'Gotham Black, sans-serif', textShadow: '2px 2px 4px rgba(0, 0, 0, 0.2)'}}
                     >
                       BLISS STAGE
@@ -39,23 +39,18 @@ const Sunday = () => {
                       width={30}
                     />
                   </div>
+                  <div className="mt-2 border-y-2 border-white text-yellow text-center font-medium">
+                    <p>CASS ON DECK</p>
+                  </div>
                   <table 
                     className="w-full mt-4 mb-4 text-center"
                     style={{ fontFamily: 'Aptos, sans-serif'}}
                   >
-                    <thead className="text-yellow font-medium">
-                      <h3 
-                        className="text-center border-y-2 border-white"
-                        style={{width: "300%"}}
-                      >
-                        ZAYN ON DECK
-                      </h3>
-                    </thead>
                     <tbody className="divide-y divide-white">
                         {sundayBlissData.map((item, index) => (
                             <tr 
                               key={item.id} 
-                              className={`${item.highlight? "text-yellow" : "text-white"} font-medium`}>
+                              className={`${item.highlight? "text-yellow" : "text-white"} font-medium text-sm md:text-base`}>
                                 <td className="px-6 py-4">{item.time}</td>
                                 <td className="px-6 py-4">{item.name}</td>
                             </tr>
@@ -71,7 +66,7 @@ const Sunday = () => {
                       width={30}
                     />
                     <h2 
-                      className="text-4xl font-bold !leading-tight text-white text-center"
+                      className="text-2xl md:text-4xl font-bold !leading-tight text-white text-center"
                       style={{ fontFamily: 'Gotham Black, sans-serif', textShadow: '2px 2px 4px rgba(0, 0, 0, 0.2)'}}
                     >
                       WEST STAGE
@@ -82,23 +77,18 @@ const Sunday = () => {
                       width={30}
                     />
                     </div>
+                  <div className="mt-2 border-y-2 border-white text-center font-medium">
+                    <p className="opacity-0">placeholder</p>
+                  </div>
                   <table 
                     className="w-full mt-4 mb-4 text-center"
                     style={{ fontFamily: 'Aptos, sans-serif'}}
                   >
-                    <thead>
-                      <h3 
-                        className="border-y-2 border-white"
-                        style={{width: "300%", color: "#6548bb"}}
-                      >
-                        -
-                      </h3>
-                    </thead>
                     <tbody className="divide-y divide-white">
                         {sundayWestData.map((item, index) => (
                             <tr 
                               key={item.id} 
-                              className={`${item.highlight ? "text-yellow" : "text-white"} font-medium`}>
+                              className={`${item.highlight ? "text-yellow" : "text-white"} font-medium text-sm md:text-base`}>
                                 <td className="px-6 py-4">{item.time}</td>
                                 <td className="px-6 py-4">{item.name}</td>
                             </tr>
@@ -109,7 +99,7 @@ const Sunday = () => {
             </div>
         </div>
     </section> 
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 200"><path fill="#6d3eb6" fill-opacity="1" d="M0,192L80,165.3C160,139,320,85,480,80C640,75,800,117,960,112C1120,107,1280,53,1360,26.7L1440,0L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"></path></svg> 
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 200"><path className='fill-[#7334b0] md:fill-[#6d3eb6]' fill-opacity="1" d="M0,192L80,165.3C160,139,320,85,480,80C640,75,800,117,960,112C1120,107,1280,53,1360,26.7L1440,0L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"></path></svg> 
     </>
   );
 };
