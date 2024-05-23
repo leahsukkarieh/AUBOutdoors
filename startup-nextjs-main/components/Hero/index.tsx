@@ -51,6 +51,17 @@ const Hero = () => {
                   >
                     Discover Outdoors {"'"}24
                   </Link>
+                  <Link
+                    href="https://tickit.co/events/OcCmExDEjZr2FNm5HY7H"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    style={{fontFamily: 'Aptos, sans-serif', boxShadow: '0px 0px 10px rgba(0, 0, 0, 0.2)'}}
+                    onMouseOver={handleHover}
+                    onMouseOut={handleLeave}
+                    className="xl:w-[50%] xs:w-[59%] bg-yellow rounded-md px-8 py-4 text-base font-semibold text-purple duration-300 ease-in-out"
+                  >
+                    Get Tickets
+                  </Link>
                 </div>
               </div>
             </div>

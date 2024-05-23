@@ -46,24 +46,18 @@ const menuData: Menu[] = [
   },
   {
     id: 4,
-    title: "Tickets",
-    path: '/tickets',
-    newTab: false,  
-  },
-  {
-    id: 5,
     title: "Merch",
     path: '/merch',
     newTab: false,  
   },
   {
-    id: 6,
+    id: 5,
     title: "FAQ",
     path: '/faq',
     newTab: false,  
   },
   {
-    id: 7,
+    id: 6,
     title: "Rules & Regulations",
     path: '/rules-regulations',
     newTab: false,  
