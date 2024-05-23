@@ -51,8 +51,8 @@ const Saturday = () => {
                             <tr 
                               key={item.id} 
                               className={`${index % 2 == 0 ? "text-yellow" : "text-white"} font-medium text-sm md:text-base`}>
-                                <td className="px-6 py-4">{item.time}</td>
-                                <td className="px-6 py-4">{item.name}</td>
+                                <td className="px-4 md:px-6 py-4">{item.time}</td>
+                                <td className="px-4 md:px-6 py-4">{item.name}</td>
                             </tr>
                         ))}
                     </tbody>
@@ -89,8 +89,8 @@ const Saturday = () => {
                             <tr 
                               key={item.id} 
                               className={`${item.highlight ? "text-yellow" : "text-white"} font-medium text-sm md:text-base`}>
-                                <td className="px-6 py-4">{item.time}</td>
-                                <td className="px-6 py-4">{item.name}</td>
+                                <td className="px-4 md:px-6 py-4">{item.time}</td>
+                                <td className="px-4 md:px-6 py-4">{item.name}</td>
                             </tr>
                         ))}
                     </tbody>
