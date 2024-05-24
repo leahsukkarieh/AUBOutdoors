@@ -13,40 +13,40 @@ const Tickets = () => {
                         className="rounded-lg w-[70%]"
                     />
                     <ul className='list-disc mt-10'>
-                        <li>
+                        <li className="mb-2">
                             All event tickets are{" "}
                             <span className="text-purple font-semibold">non-refundable</span>
                             {" "}and{" "}
                             <span className="text-purple font-semibold">non-transferable</span>.
                         </li>
-                        <li>
+                        <li className="mb-2">
                             Attendees with Fast Pass two-day (Day 1 and Day 2) tickets must keep their
                             bracelets on throughout both days and{" "}
                             <span className="text-purple font-semibold">not</span> 
                             {" "}remove it until the end of the event.
                         </li>
-                        <li>
+                        <li className="mb-2">
                             Fast Pass Two-day tickets will{" "}
                             <span className="text-purple font-semibold">not</span>
                             {" "}be available for purchase at the door on the event days.
                         </li>
-                        <li>
+                        <li className="mb-2">
                             Once the event reaches its{" "} 
                             <span className="text-purple font-semibold">maximum capacity</span>
-                            ,no further entry will be allowed, even for attendees with pre-purchased tickets.
+                            , no further entry will be allowed, even for attendees with pre-purchased tickets.
                         </li>
-                        <li>
+                        <li className="mb-2">
                             Upon successful security screening, attendees{"'"} tickets will be 
                             activated and validated in the form of a non-removable bracelet containing an 
                             embedded chip for cashless payments.
                         </li>
-                        <li>
+                        <li className="mb-2">
                             Event tickets include access to all entertainment and activities on the West Stage and 
                             Green Oval Stage but do{" "}
                             <span className="text-purple font-semibold">not</span> 
                             {" "}cover food and beverage purchases.
                         </li>
-                        <li>
+                        <li className="mb-2">
                             All the tickets include{" "}
                             <span className="text-purple font-semibold">multiple entries</span>
                             ; however, every time someone goes out, they are required to undergo the security 
