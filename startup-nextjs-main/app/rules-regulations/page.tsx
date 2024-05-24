@@ -1,4 +1,5 @@
 import Breadcrumb from "@/components/Common/Breadcrumb";
+import EntranceDetails from "@/components/Rules-Regulations/EntranceDetails";
 import ProhibitedItems from "@/components/Rules-Regulations/ProhibitedItems";
 import { Metadata } from "next";
 
@@ -15,6 +16,7 @@ const RulesRegulationsPage = () => {
         description="Stay informed about the policy to ensure a smooth and enjoyable experience at this year’s event."
       />
       <ProhibitedItems />
+      <EntranceDetails />
     </>
   );
 };
