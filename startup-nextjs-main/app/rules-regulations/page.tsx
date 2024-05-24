@@ -1,6 +1,8 @@
 import Breadcrumb from "@/components/Common/Breadcrumb";
+import Contact from "@/components/Rules-Regulations/Contact";
 import EntranceDetails from "@/components/Rules-Regulations/EntranceDetails";
-import GeneralRules from "@/components/Rules-Regulations/General Rules";
+import Facilities from "@/components/Rules-Regulations/Facilities";
+import GeneralRules from "@/components/Rules-Regulations/GeneralRules";
 import ProhibitedItems from "@/components/Rules-Regulations/ProhibitedItems";
 import Tickets from "@/components/Rules-Regulations/Tickets";
 import { Metadata } from "next";
@@ -20,7 +22,9 @@ const RulesRegulationsPage = () => {
       <ProhibitedItems />
       <EntranceDetails />
       <Tickets />
+      <Facilities />
       <GeneralRules />
+      <Contact />
     </>
   );
 };
