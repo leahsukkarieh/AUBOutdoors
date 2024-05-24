@@ -3,7 +3,9 @@ import Contact from "@/components/Rules-Regulations/Contact";
 import EntranceDetails from "@/components/Rules-Regulations/EntranceDetails";
 import Facilities from "@/components/Rules-Regulations/Facilities";
 import GeneralRules from "@/components/Rules-Regulations/GeneralRules";
+import IntellectualProperty from "@/components/Rules-Regulations/IntellectualProperty";
 import ProhibitedItems from "@/components/Rules-Regulations/ProhibitedItems";
+import SafetySecurity from "@/components/Rules-Regulations/SafetySecurity";
 import Tickets from "@/components/Rules-Regulations/Tickets";
 import { Metadata } from "next";
 
@@ -23,6 +25,8 @@ const RulesRegulationsPage = () => {
       <EntranceDetails />
       <Tickets />
       <Facilities />
+      <SafetySecurity />
+      <IntellectualProperty />
       <GeneralRules />
       <Contact />
     </>
