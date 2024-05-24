@@ -43,7 +43,7 @@ const Header = () => {
         className={`header left-0 top-0 z-40 flex w-full items-center ${
           sticky
             ? "fixed z-[9999] bg-purple !bg-opacity-80 shadow-sticky backdrop-blur-sm transition"
-            : usePathName === '/' || usePathName === '/rules-regulations'
+            : usePathName === '/'
               ? "absolute bg-transparent"
               : "absolute bg-purple"  
         }    

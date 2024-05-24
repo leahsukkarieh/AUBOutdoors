@@ -1,4 +1,5 @@
-import ComingSoon from "@/components/Common/ComingSoon";
+import Breadcrumb from "@/components/Common/Breadcrumb";
+import ProhibitedItems from "@/components/Rules-Regulations/ProhibitedItems";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -7,10 +8,13 @@ export const metadata: Metadata = {
 };
 
 const RulesRegulationsPage = () => {
-  const description = 'Discover the essential rules and regulations for AUB Outdoors 2024! Stay informed to ensure a smooth and enjoyable experience at this year’s event.';
   return (
     <>
-        <ComingSoon description={description} />
+      <Breadcrumb
+        pageName="Rules & Regulations"
+        description="Stay informed about the policy to ensure a smooth and enjoyable experience at this year’s event."
+      />
+      <ProhibitedItems />
     </>
   );
 };
