@@ -1,6 +1,7 @@
 import Breadcrumb from "@/components/Common/Breadcrumb";
 import EntranceDetails from "@/components/Rules-Regulations/EntranceDetails";
 import ProhibitedItems from "@/components/Rules-Regulations/ProhibitedItems";
+import Tickets from "@/components/Rules-Regulations/Tickets";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -17,6 +18,7 @@ const RulesRegulationsPage = () => {
       />
       <ProhibitedItems />
       <EntranceDetails />
+      <Tickets />
     </>
   );
 };
