@@ -18,7 +18,7 @@ const SundayArtist = () => {
                             </h3>
                             <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed text-justify">
                                 Sing your heart out with Adonis on Sunday, May 26th at AUB Outdoors 2024!
-                                Dance along with us to hits like {"'Shou Awlak'"}, {"'Shayef'"} and {"'Eza Shi Nhar"}!
+                                Dance along with us to hits like {"'Shou Awlak'"}, {"'Shayef'"} and {"'Eza Shi Nhar'"}!
                             </p>
                         </div>
                     </div>

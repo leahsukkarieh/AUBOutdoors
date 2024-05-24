@@ -13,6 +13,7 @@ import FAQArtistsData from "@/components/FAQ/FAQArtistsData";
 import FAQFacilitiesData from "@/components/FAQ/FAQFacilitiesData";
 import FAQPolicyData from "@/components/FAQ/FAQPolicyData";
 import FAQContactData from "@/components/FAQ/FAQContactData";
+import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "FAQ",
@@ -42,7 +43,7 @@ const FAQPage = () => {
     const merchFAQ : FAQ = {
         id: 1,
         question: 'Are there any merchandise or memorabilia available for purchase related to AUB Outdoors?',
-        answer: 'Official AUB Outdoors merchandise, such as t-shirts, caps, or souvenirs, may be available for purchase during the event and viewed through the event website, allowing attendees to take home mementos of their experience.'
+        answer: 'Official AUB Outdoors merchandise will be available for purchase during the event and viewed through the event website, allowing attendees to take home mementos of their experience.'
     }
 
     const themeFAQ : FAQ = {
@@ -74,6 +75,18 @@ const FAQPage = () => {
           ))}
 
           <h1 className="text-xl font-bold text-blue mb-4 mt-8">Tickets</h1>
+          <p className="text-base my-4">
+            Click{" "}
+            <Link
+              href="https://tickit.co/events/OcCmExDEjZr2FNm5HY7H"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue underline"
+            >
+              here
+            </Link>
+            {" "}to buy your tickets for AUB Outdoors 2024!
+          </p>
           {FAQTicketsData.map((faq) => (
             <SingleFAQ key={faq.id} faq={faq} />
           ))}
@@ -105,12 +118,44 @@ const FAQPage = () => {
           <SingleFAQ faq={cancelFAQ} />
 
           <h1 className="text-xl font-bold text-blue mb-4 mt-8">Merchandise</h1>
+          <p className="text-base my-4">
+            Browse the AUB Outdoors 2024 merch{" "}
+            <Link
+              href="/merch"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue underline"
+            >
+              here!
+            </Link>
+          </p>
           <SingleFAQ faq={merchFAQ} />
 
           <h1 className="text-xl font-bold text-blue mb-4 mt-8">Theme</h1>
+          Discover the AUB Outdoors 2024 theme{" "}
+            <Link
+              href="/theme"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue underline"
+            >
+              here.
+            </Link>
           <SingleFAQ faq={themeFAQ} />
 
           <h1 className="text-xl font-bold text-blue mb-4 mt-8">Artists Lineup</h1>
+          <p className="text-base my-4">
+            Click{" "}
+            <Link
+              href="/lineup"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue underline"
+            >
+              here
+            </Link>
+            {" "}to view the lineup for AUB Outdoors 2024!
+          </p>
           {FAQArtistsData.map((faq) => (
             <SingleFAQ key={faq.id} faq={faq} />
           ))}
@@ -121,6 +166,17 @@ const FAQPage = () => {
           ))}
 
           <h1 className="text-xl font-bold text-blue mb-4 mt-8">Policy, Rules, & Regulations</h1>
+          <p className="text-base my-4">
+            Read more about the AUB Outdoors 2024 policy {" "}
+            <Link
+              href="/rules-regulations"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue underline"
+            >
+              here.
+            </Link>
+          </p>
           {FAQPolicyData.map((faq) => (
             <SingleFAQ key={faq.id} faq={faq} />
           ))}

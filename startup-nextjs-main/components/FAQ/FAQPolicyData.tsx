@@ -8,7 +8,7 @@ const FAQPolicyData: FAQ[] = [
   },
   {
     id: 2,
-    question: 'What is the policy on photography and videography at the event? ',
+    question: 'What is the policy on photography and videography at the event?',
     answer: 'Attendees are welcome to take photographs and videos for personal use. However, professional photography/videography or use for commercial purposes requires prior approval from AUB Outdoors organizers.',
   },
   {
@@ -50,6 +50,11 @@ const FAQPolicyData: FAQ[] = [
     id: 10,
     question: "What is the policy regarding the use of AUB Outdoors' branding or intellectual property?",
     answer: "Proper authorization must be obtained for the use of any copyrighted material or intellectual property related to AUB Outdoors. The brand should not be used for personal gain or unauthorized purposes.",
-  }
+  },
+  {
+    id: 11,
+    question: "What are the prohibited items I cannot bring to AUB Outdoors?",
+    answer: "Keep an eye on the prohibited items post on our Instagram, or visit the Rules and Regulations linked above.",
+  },
 ];
 export default FAQPolicyData;

@@ -14,7 +14,7 @@ const FAQAboutData: FAQ[] = [
   {
     id: 3,
     question: 'When and where does AUB Outdoors take place?',
-    answer: 'AUB Outdoors typically takes place in the spring semester on the AUB campus in Beirut, Lebanon. The specific dates are announced well in advance.',
+    answer: 'AUB Outdoors typically takes place in the spring semester on the AUB campus in Beirut, Lebanon. The specific dates are announced well in advance. AUB Outdoors 2024 is taking place on May 25th-26th.',
   }
 ];
 export default FAQAboutData;

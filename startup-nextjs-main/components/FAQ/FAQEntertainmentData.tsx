@@ -9,7 +9,7 @@ const FAQEntertainmentData: FAQ[] = [
   {
     id: 2,
     question: 'What is the BigRace at AUB Outdoors, and how can participants get involved?',
-    answer: 'The BigRace at AUB Outdoors is an exciting and adrenaline-pumping competition that challenges participants in various physical and mental tasks. Stay tuned for more details on how you can participate and experience the thrill of the BigRace firsthand!',
+    answer: 'The BigRace at AUB Outdoors is an exciting and adrenaline-pumping competition that challenges participants in various physical and mental tasks. Check our Instagram for more details on how you can participate and experience the thrill of the BigRace firsthand!',
   },
   {
     id: 3,
